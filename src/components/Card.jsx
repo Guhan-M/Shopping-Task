@@ -13,8 +13,6 @@ function Card({cart,setCart,vaalue}){
         <div className="text-center">
    
             <h5 className="fw-bolder">{vaalue.name}</h5>
-   
-            {/* <span className="text-muted text-decoration-line-through">$50.00</span> */}
             ${vaalue.rate}
         </div>
     </div>
@@ -27,9 +25,7 @@ function Card({cart,setCart,vaalue}){
         </div>
             </div>
          </div>
-    </div>
-                   
-                   
+    </div>                 
     </>
 }
 export default Card
